@@ -1,0 +1,24 @@
+{
+  "name": "typescript-example",
+  "private": true,
+  "version": "0.0.1",
+  "description": "This example shows how developer could use TypeScript along with Vite to start developing at Telegram Mini Apps platform.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 5000",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview --port 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  },
+  "dependencies": {
+    "@foile/crypto-pay-api": "^1.0.4",
+    "@tma.js/sdk": "^0.12.7"
+  }
+}
